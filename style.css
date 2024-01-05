@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(244, 243, 243);
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+main{
+    background-color: white;
+    width: 50%;
+    margin: 0 auto;
+    border: 1px solid black;
+    box-shadow: 5px 5px 5px 5px aquamarine;
+}
+a{
+    color: black;
+}
+.sec1{
+    padding: 10px;
+}
+.div1, .div2, .div3{
+    margin-top: 5px;
+}
+img{
+    border-radius: 20px;
+}
+img:hover{
+    zoom: 130%;
+}
+.div1 > label > input{
+    padding: 4px;
+}
+hr{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: black;
+}
+.sec2{
+    padding: 10px;
+}
+.sec2>label{
+    display: block;
+    font-size: 24px;
+    padding: 4px;
+}
+.sec2 > label > input{
+    padding: 4px;
+    display: block;
+    width: 300px;
+}
+#tarea{
+    display: block;
+}
+input[type="submit"], [type="button"]{
+    padding: 8px;
+    border-radius: 10px;
+    border: none;
+    margin-top: 5px;
+    background-color: rgba(33, 80, 80, 0.582);
+    color: white;
+}
+input[type="submit"]:hover, [type="button"]:hover{
+    color: black;
+    background-color: whitesmoke;
+    border-bottom: 2px solid aqua;
+}
+
+input:focus{
+    outline: none;
+}
+textarea:focus{
+    outline: none;
+}
